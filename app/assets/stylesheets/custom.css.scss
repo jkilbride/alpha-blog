@@ -40,7 +40,13 @@ $navbar-default-bg: #ff3000;
   font-size: 1.7em;
   background-color: #000;
 }
-
+.article-actions {
+  border-top: 1px solid #EAEAEA;
+  padding-top: 15px;
+}
+.description {
+  margin-top: 0;
+}
 footer {
   margin-top: 50px;
   padding-top: 10px;
