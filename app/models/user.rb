@@ -11,7 +11,6 @@ class User < ActiveRecord::Base
                         length: {minimum: 3, maximum: 105},
                         format: {with: VALID_EMAIL_REGEX}
 
-  # user is present and unique
-  # email is present and unique
-  # valid email address
+  has_secure_password
+
 end
